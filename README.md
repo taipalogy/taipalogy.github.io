@@ -1,4 +1,4 @@
-# sotronx.github.io
+# sotrox.github.io
 
 # LICENSE
 CC BY-NC-ND
