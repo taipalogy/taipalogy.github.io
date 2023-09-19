@@ -1,78 +1,103 @@
 /* Reset some default browser styles */
-html, body, h1, h2, h3, p, ul, li, a {
-    margin: 0;
-    padding: 0;
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
 }
 
 /* Global styles */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff; /* White background */
-    color: #000; /* Black text */
-    margin: 0;
-    padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark gray text */
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #fff; /* White background */
-    text-align: center;
-    padding: 1rem 0;
-    border-bottom: 2px solid #ff6a8a; /* Neon pink */
+  background-color: #f1f1f1; /* Soft light gray background for header */
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 2px solid #555; /* Medium gray */
+}
+
+header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #333; /* Dark gray text for header */
 }
 
 nav ul.nav-list {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul.nav-list li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav ul.nav-list li:last-child {
-    margin-right: 0;
+  margin-right: 0;
+}
+
+nav ul.nav-list li a {
+  color: #333; /* Dark gray text for links in nav-list */
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav ul.nav-list li a:hover {
+  color: #555; /* Slightly darker gray on hover for links in nav-list */
 }
 
 .content {
-    padding: 20px;
-}
-
-h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: #03a9f4; /* Cyberpunk blue */
+  padding: 20px;
 }
 
 h2 {
-    font-size: 2rem;
-    color: #ff6a8a; /* Neon pink */
-    margin-top: 20px;
+  font-size: 2rem;
+  color: #555; /* Medium gray */
+  margin-top: 20px;
 }
 
-ul.book-list, ul.dev-list {
-    list-style: none;
+ul.book-list,
+ul.dev-list {
+  list-style: none;
 }
 
-ul.book-list li, ul.dev-list li {
-    margin-bottom: 10px;
+ul.book-list li,
+ul.dev-list li {
+  margin-bottom: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #4caf50; /* Neon green */
-    font-size: 1.2rem;
-    transition: color 0.3s ease;
-    border-bottom: 1px solid #4caf50;
-    padding-bottom: 2px;
+  text-decoration: none;
+  color: #444; /* Dark gray for links */
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+  border-bottom: 1px solid #444;
+  padding-bottom: 2px;
 }
 
 a:hover {
-    color: #ff6a8a; /* Neon pink */
+  color: #333; /* Slightly darker gray on hover */
 }
 
 footer {
-    background-color: #fff; /* White background */
-    text-align: center;
-    padding: 1rem 0;
-    border-top: 2px solid #ff6a8a; /* Neon pink */
+  background-color: #f1f1f1; /* Soft light gray background for footer */
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 2px solid #555; /* Medium gray */
+}
+
+footer p {
+  color: #333; /* Dark gray text for footer */
 }
