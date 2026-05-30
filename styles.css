@@ -69,12 +69,14 @@ h2 {
 }
 
 ul.book-list,
-ul.dev-list {
+ul.dev-list,
+ul.site-list {
   list-style: none;
 }
 
 ul.book-list li,
-ul.dev-list li {
+ul.dev-list li,
+ul.site-list li {
   margin-bottom: 10px;
 }
 
